@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fae7213c.css",
+    "main.js": "/static/js/main.ed54dbd0.js",
+    "static/media/OpenSans-Italic-VariableFont_wdth,wght.ttf": "/static/media/OpenSans-Italic-VariableFont_wdth,wght.a0e19c0bb999dca783c5.ttf",
+    "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/static/media/OpenSans-VariableFont_wdth,wght.071a1becc7f00e33cc5b.ttf",
+    "static/media/Logo.png": "/static/media/Logo.e70e38ccb03daf0f38e9.png",
+    "index.html": "/index.html",
+    "main.fae7213c.css.map": "/static/css/main.fae7213c.css.map",
+    "main.ed54dbd0.js.map": "/static/js/main.ed54dbd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fae7213c.css",
+    "static/js/main.ed54dbd0.js"
+  ]
+}

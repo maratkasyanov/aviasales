@@ -1,0 +1,258 @@
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("Open Sans"),
+    url("./fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("ttf"),
+    url("./fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("ttf"),
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F3F7FA;
+}
+
+.all{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  
+}
+button{
+  font-family: 'Open Sans', sans-serif;
+font-size: 12px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.5px;
+text-align: center;
+color: #4A4A4A;
+}
+.head-ico{
+  display: flex;
+  justify-content: center;
+}
+.all{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 950px;
+}
+li{
+  font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+color: #4A4A4A;
+
+}
+.card{
+  box-shadow: 0px 2px 8px 0px #0000001A;
+  background-color: #FFFFFF;
+  width: 500px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo-card{
+  width: 110px;
+  height: 36px;
+  object-fit:cover;
+}
+
+.filter-fast:nth-child(1){
+  color: #4A4A4A;
+text-align: center;
+font-family: 'Open Sans',sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
+letter-spacing: 0.5px;
+text-transform: uppercase;
+padding: 15px 15px;
+background-color: #fff;
+border-radius: 5px;
+border: 2px solid #d6cdcd;
+border-bottom-right-radius: 0;
+border-top-right-radius: 0;
+vertical-align: super;
+width: 168px;
+height: 50px;
+}
+.filter-fast{
+  color: #4A4A4A;
+  text-align: center;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; 
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  background-color: #fff;
+border-left: 0px;
+border-right: 0px;
+border-top: 2px solid #d6cdcd;
+border-bottom: 2px solid #d6cdcd;
+width: 168px;
+height: 50px;
+vertical-align: super;
+}
+.filter-fast:nth-child(3){
+  color: #4A4A4A;
+  text-align: center;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; 
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+border: 2px solid #d6cdcd;
+border-bottom-left-radius: 0;
+border-top-left-radius: 0;
+width: 168px;
+height: 50px;
+vertical-align: super;
+}
+.filter{
+  margin-bottom: 20px;
+}
+.cards{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.noflith{
+  display: flex;
+  margin-left: 40%;
+  margin-top: -200px;
+  margin-bottom: 100px;
+}
+.active{
+  background-color: #2196F3 !important;
+  color: #fff !important;
+  border-color: #2196F3 !important;
+}
+.filter-asffas{
+  display: flex;
+  flex-direction: column;
+}
+.filter-asffas{
+  font-family: 'Open Sans',sans-serif;
+  border-radius: 9px;
+background: #FFF;
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+height: 340px;
+    display: flex;
+    justify-content: center;
+    margin-left: -30px;
+    margin-right: 20px;
+
+}
+.filter-trans{
+margin-right: 30px;
+
+}
+.filter-label{
+  color: #4A4A4A;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+display: flex;
+align-items: center;
+}
+.filter-form{
+  padding-bottom: 10px ;
+  padding-top: 10px;
+  padding-right: 80px;
+  padding-left: 30px;
+  display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ margin-bottom: 10px;
+}
+.filters-head{
+  padding-left: 30px;
+}
+.filter-form:hover{
+  background: #F1FCFF;
+}
+.filter-input{
+  width: 20px;
+height: 20px;
+}
+label input {
+  display: none;/* <--скрываем дефолтный чекбокс */
+}
+label span {/* <-- стилизируем новый */
+  height: 12px;
+  width: 12px;
+  border: 2px solid #2196F3;
+  display: inline-block;
+  position: relative;
+  background-color:#FFF;
+  border-radius:2px;
+  padding:3px;
+  margin-right: 10px;
+}
+
+[type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
+  content: '\2714';
+  position: absolute;
+  left: 0;
+  top: 0;
+
+
+  font-size:20px;
+  color:#2196F3;
+}
+.filter-label-head{
+  color: #4A4A4A;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-left: 28px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.filter-fast:nth-child(2){
+  color: #4A4A4A;
+  text-align: center;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  background-color: #fff;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 2px solid #d6cdcd;
+  border-bottom: 2px solid #d6cdcd;
+  width: 168px;
+  height: 50px;
+  vertical-align: super;
+}

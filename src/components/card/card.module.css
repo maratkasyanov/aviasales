@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("Open Sans"),
+    url("../fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("ttf"),
+    url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("ttf"),
+    
+}
+*{
+  font-family: 'Open Sans',sans-serif;
+}
+.column{
+  font-family: 'Open Sans',sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.row{
+  font-family: 'Open Sans',sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.columnDescr{
+  color: #A0B0B9;
+  font-family: 'Open Sans',sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+}
+.columnInfo{
+  color: #4A4A4A;
+  font-family: 'Open Sans',sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 21px;
+}
+.rowHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+}
+.price{
+  color: #2196F3;
+  font-family: 'Open Sans',sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+}

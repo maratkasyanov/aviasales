@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Open Sans";
+  src:
+    local("Open Sans"),
+    url("../src/components/fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("ttf"),
+    url("../src/components/fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("ttf"),
+    
+}
+.button_more{
+  font-family: 'Open Sans',sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; 
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  width: 502px;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-left: 35%;
+ color: azure;
+ background-color: #2196F3;
+ border: none;
+}
